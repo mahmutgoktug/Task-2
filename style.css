@@ -93,6 +93,17 @@ input[type="text"] {
 .forgot-password{
     margin-left: 10px;
 }
+.image-center{
+  margin-left: 40px;
+  background: #F5F5F5;
+}
+
+.profil-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 460px) {
     .remember-me{
         display: block;

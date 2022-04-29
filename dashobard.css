@@ -1,0 +1,44 @@
+.profil-div{
+    display: flex;
+    align-items: center;/*dikey ortalama*/
+    justify-content: center;/*yataty ortalam*/
+}
+
+.profil-div span{
+    margin-right: 7px;
+}
+ .input-icons i {
+    position: absolute;
+    left: 40px;
+    margin-top: 12px;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    .mobile-menu{
+        background-color: #FFFFFF;
+        height: 100vh;
+    }
+    .mobile-search{
+        background-color: #ECECEC;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        opacity: 0.5;
+    }
+  }
