@@ -7,12 +7,26 @@
 .profil-div span{
     margin-right: 7px;
 }
- .input-icons i {
+
+.search-div {
+    position: relative;
+}
+ .search-div i {
     position: absolute;
-    left: 40px;
+    left: 20px;
     margin-top: 12px;
 }
-  
+
+.menu-item{
+        display: flex;
+        align-items: center;
+}
+
+.menu-item i{
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
