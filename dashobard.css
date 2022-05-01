@@ -1,3 +1,6 @@
+body{
+    background: #F5F5F5;
+}
 .profil-div{
     display: flex;
     align-items: center;/*dikey ortalama*/
@@ -42,7 +45,30 @@
     padding: 10px;
     padding-left: 50px;
 }
-
+.green-card{
+    height: 225px;
+    border: 1px solid #2BEBC8;
+    background: #2BEBC8;
+    border-radius: 8px;
+}
+.container{
+    margin-top: 40px;
+}
+.white-card{
+    border: 1px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 100%;
+}
+.graphic-card{
+    height: 146px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.last-card{
+    height: 358px;
+    margin-top: 25px;
+}
 @media only screen and (max-width: 991px) {
     .mobile-menu{
         background-color: #FFFFFF;
