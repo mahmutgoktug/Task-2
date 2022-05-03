@@ -19,10 +19,9 @@ body{
     left: 20px;
     margin-top: 12px;
 }
-
 .menu-item{
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .menu-item i{
@@ -46,7 +45,6 @@ body{
     padding-left: 50px;
 }
 .green-card{
-    height: 225px;
     border: 1px solid #2BEBC8;
     background: #2BEBC8;
     border-radius: 8px;
@@ -58,17 +56,94 @@ body{
     border: 1px;
     background: #FFFFFF;
     border-radius: 10px;
-    height: 100%;
+}
+.first-box h6{
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 24px;
+    font-size: 16px;
+}
+.first-box{
+    height: 201px;
 }
 .graphic-card{
-    height: 146px;
     margin-top: 25px;
     border-radius: 8px;
 }
 .last-card{
-    height: 358px;
     margin-top: 25px;
+    height: 100%;
 }
+.text-card{
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+.text-card h5{
+    font-style: bold;
+}
+.text-card p{
+    opacity: 70%;
+    margin-top: 25px;
+    color:#4A4A4A;
+}
+.first-image{
+    width: 100%;
+}
+.last-image img{
+    width: 100%;
+    margin-left: 37px;
+    padding-right: 74px;
+    margin-top: 20px;
+}
+.last-image h6{
+    margin-left: 24px;
+    padding-top: 24px;
+}
+.card-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 34px;
+    margin-left: 24px;
+}
+.card-icon i{
+    color: #06AA8D;
+}
+.card-text{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.card-text h5{
+    font-size: 24px;
+    font-style: bold;
+    text-align: left;
+}
+.card-text p{
+    opacity: 70%;
+}
+.justify-card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+.justify-card h6{
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 600, bold;
+}
+.justify-card .last-graphic{
+    margin-right: 24px;
+}
+.last-graphic p{
+    font-size: 12px;
+}
+.last-graphic i{
+    font-size: 12px;
+    color: #06AA8D;
+}
+
 @media only screen and (max-width: 991px) {
     .mobile-menu{
         background-color: #FFFFFF;
@@ -81,4 +156,34 @@ body{
         border-radius: 20px;
         opacity: 0.5;
     }
-  }
+    .chart-col img{
+        max-width: 100%;
+        height: auto;
+    }
+    .green-card{
+        text-align: center;
+    }
+    .green-card img{
+        text-align: center;
+    }
+    .card-icon{
+        justify-content: left;
+    }
+    .first-chart{
+        padding-bottom: 24px;
+    }
+    .graphic img{
+       margin: auto;
+    }
+    .first-box img{
+        margin: auto;
+    }
+    .text-card p{
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+    .first-image{
+        margin-bottom: 41px;
+    }
+}
+  
